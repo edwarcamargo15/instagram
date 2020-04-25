@@ -1,0 +1,60 @@
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    size: 600rem;
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 {
+    padding: 5%;
+    background: #3F51B5;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 .registar {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    size: 15px;
+}
+
+label {
+    color: azure;
+}
+
+h4 {
+    color: azure;
+}
+
+.img img {
+    width: 100%;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+#global {
+    height: 300px;
+    width: 100%;
+    border: 2px solid #ddd;
+    padding: 2px;
+    background: #FFFFFF;
+    overflow-x: scroll;
+}
+
+#politicas {
+    height: auto;
+}
+
+.texto {
+    padding: 5px;
+}
