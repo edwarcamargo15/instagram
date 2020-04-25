@@ -63,15 +63,16 @@ public class loginServlet extends HttpServlet {
 			//misession.setAttribute("pass",miUsuario.getPass());
 			
 //		RequestDispatcher rd = request.getRequestDispatcher("views/registrar.jsp");
-			RequestDispatcher rd = request.getRequestDispatcher("/VistaUsuario/registrarUsuario.jsp");
+			response.sendRedirect("./galeria/galeriaim.jsp");
+			//RequestDispatcher rd = request.getRequestDispatcher("galeria/galeriaim.jsp");
 
-        	rd.forward(request, response);
+        	//rd.forward(request, response);
 //			response.sendRedirect("views/registrar.jsp");
 
 		} else{
 			System.out.println("false");
 			request.setAttribute("entrar", "falso");
-			RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("/galeria/galeriaim.jsp");
 			rd.forward(request, response);
 		    
 		}
